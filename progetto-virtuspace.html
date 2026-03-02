@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtuSpace - Realtà Virtuale per Collaborazione | Francesco Pagano</title>
+    <meta name="description" content="VirtuSpace: ambiente di realtà virtuale per collaborazione team remota. Meeting olografi, lavagne 3D condivise e spazi di lavoro immersivi.">
+    <meta name="keywords" content="VirtuSpace, realtà virtuale, VR, collaborazione remota, WebXR, Francesco Pagano">
+    <meta property="og:title" content="VirtuSpace - Realtà Virtuale per Collaborazione">
+    <meta property="og:description" content="Ambiente di realtà virtuale per collaborazione team remota">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo" aria-label="Francesco Pagano - Torna alla home">FP</a>
+            <button class="hamburger" aria-label="Apri menu di navigazione">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#progetti">Progetti</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="project-page">
+        <section class="project-hero" style="background: linear-gradient(135deg, #7e817b 0%, #4a4d4a 100%);">
+            <div class="project-hero-content">
+                <span class="project-tag">Realtà Virtuale</span>
+                <h1>VirtuSpace</h1>
+                <p class="project-subtitle">Ambiente di realtà virtuale per collaborazione team remota</p>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <div class="project-main">
+                <h2>Panoramica del Progetto</h2>
+                <p>VirtuSpace è una piattaforma di collaborazione in realtà virtuale che trasforma il modo in cui i team remoti lavorano insieme. Immagina di poter entrare in uno spazio di lavoro condiviso dove puoi vedere i tuoi colleghi come ologrammi 3D, collaborare su lavagne virtuali, e presentare idee in un ambiente immersivo che supera le limitazioni delle videochiamate tradizionali.</p>
+
+                <p>La piattaforma supporta meeting con fino a 100 partecipanti simultanei, ognuno rappresentato da un avatar personalizzabile. Gli utenti possono creare stanze tematiche, dalla sala riunioni formale al lounge informale, completamente personalizzabili con brand aziendali e asset visivi. L'interfaccia è disponibile sia in VR che in modalità desktop 2D per massimizzare l'accessibilità.</p>
+
+                <h2>Funzionalità Principali</h2>
+                <ul class="feature-list">
+                    <li><i class="fas fa-vr-cardboard"></i> <strong>Meeting Olografici:</strong> Avatar 3D realistici con tracking dei movimenti e espressioni facciali</li>
+                    <li><i class="fas fa-drafting-compass"></i> <strong>Lavagne 3D Condivise:</strong> Brainstorming spaziale con oggetti e note sticky fluttuanti</li>
+                    <li><i class="fas fa-desktop"></i> <strong>Screen Sharing Immersivo:</strong> Condividi schermi direttamente nell'ambiente VR</li>
+                    <li><i class="fas fa-cube"></i> <strong>Sale Riunioni Virtuali:</strong> Stanze pre-configurate per brainstorming, presentazioni, formazione</li>
+                    <li><i class="fas fa-file-import"></i> <strong>Integrazione Documenti:</strong> Importa e annota PDF, slide e modelli 3D in tempo reale</li>
+                </ul>
+
+                <h2>Tecnologie Utilizzate</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fas fa-cube"></i>
+                        <span>Unity</span>
+                        <p>Motore VR/3D</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>WebXR</span>
+                        <p>Esperienza browser VR</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-cube"></i>
+                        <span>Three.js</span>
+                        <p>Rendering 3D web</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS GameLift</span>
+                        <p>Server gaming cloud</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-network-wired"></i>
+                        <span>WebRTC</span>
+                        <p>Streaming real-time</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-oculus"></i>
+                        <span>SDK Meta Quest</span>
+                        <p>Integrazione headset VR</p>
+                    </div>
+                </div>
+
+                <h2>Sfide Tecniche e Soluzioni</h2>
+                <p>La latenza nella sincronizzazione degli avatar in tempo reale è stata una sfida critica. Abbiamo implementato un sistema di previsione del movimento basato su machine learning che anticipa le posizioni degli utenti, riducendo la percezione di lag anche su connessioni non ottimali.</p>
+                <p>Un'altra sfida è stata l'ottimizzazione per diversi dispositivi VR, dai visori standalone come Meta Quest ai sistemi PC-based ad alta potenza. Abbiamo sviluppato un sistema di quality scaling adattivo che regola automaticamente la qualità grafica in base alle capacità del dispositivo.</p>
+
+                <h2>Risultati Ottenuti</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Aziende utilizzatrici</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-label">Aumento produttività</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Meeting VR effettuati</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">45%</span>
+                        <span class="stat-label">Riduzione viaggi aziendali</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-nav">
+                <a href="index.html#progetti" class="btn"><i class="fas fa-arrow-left"></i> Torna ai Progetti</a>
+                <a href="index.html#contatti" class="btn btn-secondary">Contattami</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Francesco Pagano. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

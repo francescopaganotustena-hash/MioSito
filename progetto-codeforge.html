@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeForge - Sviluppo Software Custom | Francesco Pagano</title>
+    <meta name="description" content="CodeForge: piattaforma di sviluppo software su misura per aziende. Template configurabili, CI/CD integrato, testing automatizzato e deployment in cloud.">
+    <meta name="keywords" content="CodeForge, sviluppo software, CI/CD, Docker, Kubernetes, Francesco Pagano">
+    <meta property="og:title" content="CodeForge - Sviluppo Software Custom">
+    <meta property="og:description" content="Piattaforma di sviluppo software su misura per aziende">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo" aria-label="Francesco Pagano - Torna alla home">FP</a>
+            <button class="hamburger" aria-label="Apri menu di navigazione">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#progetti">Progetti</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="project-page">
+        <section class="project-hero" style="background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);">
+            <div class="project-hero-content">
+                <span class="project-tag">Software Custom</span>
+                <h1>CodeForge</h1>
+                <p class="project-subtitle">Piattaforma di sviluppo software su misura per aziende</p>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <div class="project-main">
+                <h2>Panoramica del Progetto</h2>
+                <p>CodeForge è una piattaforma enterprise per lo sviluppo software custom che rivoluziona il modo in cui le aziende creano e gestiscono le proprie applicazioni. Combinando template pre-configurati, ambienti di sviluppo automatizzati e strumenti di CI/CD integrati, CodeForge riduce drasticamente i tempi di sviluppo mantenendo standard di qualità elevati.</p>
+
+                <p>La piattaforma supporta multipli linguaggi di programmazione e framework, permettendo ai team di sviluppo di scegliere lo stack tecnologico più adatto alle proprie esigenze. L'interfaccia intuitiva guida gli sviluppatori attraverso best practices e standard di codifica aziendali, mentre il sistema di code review automatizzato garantisce la qualità del codice prima del merge.</p>
+
+                <h2>Funzionalità Principali</h2>
+                <ul class="feature-list">
+                    <li><i class="fas fa-magic"></i> <strong>Template Wizard:</strong> Generazione automatica di boilerplate code per diversi tipi di applicazione</li>
+                    <li><i class="fas fa-cogs"></i> <strong>CI/CD Pipeline:</strong> Continuous Integration e Deployment configurabili con un click</li>
+                    <li><i class="fas fa-vial"></i> <strong>Testing Automation:</strong> Unit test, integration test e e2e test eseguiti automaticamente</li>
+                    <li><i class="fas fa-code-branch"></i> <strong>Git Integration:</strong> Gestione completa del versionamento con branching strategies pre-configurate</li>
+                    <li><i class="fas fa-rocket"></i> <strong>Cloud Deployment:</strong> Deploy automatico su AWS, Azure o GCP con infrastruttura come codice</li>
+                </ul>
+
+                <h2>Tecnologie Utilizzate</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>TypeScript</span>
+                        <p>Linguaggio principale</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                        <p>Containerizzazione</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-dharmachakra"></i>
+                        <span>Kubernetes</span>
+                        <p>Orchestrazione container</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-gitlab"></i>
+                        <span>GitLab CI</span>
+                        <p>CI/CD pipeline</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-terraform"></i>
+                        <span>Terraform</span>
+                        <p>Infrastructure as Code</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-server"></i>
+                        <span>Prometheus</span>
+                        <p>Monitoraggio</p>
+                    </div>
+                </div>
+
+                <h2>Sfide Tecniche e Soluzioni</h2>
+                <p>La creazione di un sistema di templating flessibile che supportasse diversi linguaggi e framework senza perdere la capacità di personalizzazione è stata una sfida significativa. Abbiamo sviluppato un motore di templating basato su AST (Abstract Syntax Tree) che permette di iniettare codice custom in punti specifici dei template senza comprometterne la struttura.</p>
+                <p>L'integrazione con sistemi CI/CD esistenti ha richiesto lo sviluppo di adapter per i principali strumenti come Jenkins, GitHub Actions e GitLab CI, garantendo che CodeForge potesse integrarsi seamless nelle infrastrutture già esistenti delle aziende clienti.</p>
+
+                <h2>Risultati Ottenuti</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">70%</span>
+                        <span class="stat-label">Riduzione time-to-market</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Progetti generati</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">90%</span>
+                        <span class="stat-label">Copertura test media</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Template disponibili</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-nav">
+                <a href="index.html#progetti" class="btn"><i class="fas fa-arrow-left"></i> Torna ai Progetti</a>
+                <a href="index.html#contatti" class="btn btn-secondary">Contattami</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Francesco Pagano. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
