@@ -1,4 +1,4 @@
-# Portfolio Nara Stabucchi
+# Portfolio Sara Stabucchi
 
 Sito web personale professionale realizzato per presentare progetti, competenze e servizi di sviluppo web.
 
@@ -134,7 +134,7 @@ git log --oneline
 
 | Data | Descrizione |
 |------|-------------|
-| 2026-03-04 | Sostituzione nome con Nara Stabucchi |
+| 2026-03-04 | Sostituzione nome con Sara Stabucchi |
 | 2026-03-04 | Logo FP → Innovation & Security |
 | 2026-03-04 | Correzione genere femminile nel testo |
 | 2026-03-04 | Nuova foto profilo |
