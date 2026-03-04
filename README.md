@@ -83,7 +83,7 @@ Il form utilizza **Formspree** per l'invio email senza backend.
 cd /home/sviluppatore/Documenti/SitoWeb
 python3 -m http.server 8000
 ```
- затем откройте http://localhost:8000
+Poi apri: http://localhost:8000
 
 ### Server HTTP Node.js
 ```bash
@@ -97,6 +97,38 @@ npx serve .
 3. Source: Deploy from a branch → Branch: main → Folder: / (root)
 4. Salva e attendi 1-2 minuti
 5. Il sito sarà disponibile all'indirizzo del repository
+
+## Comandi Git
+
+### Configurazione iniziale (già fatto)
+```bash
+git config --global user.email "francescopagano.tustena@gmail.com"
+git config --global user.name "Francesco Pagano"
+git remote add origin git@github.com:francescopaganotustena-hash/MioSito.git
+```
+
+### Commit e Push
+```bash
+# Aggiungi tutti i file modificati
+git add -A
+
+# Crea commit con messaggio
+git commit -m "Descrizione delle modifiche"
+
+# Push su GitHub
+git push
+```
+
+### Pull (scaricare modifiche)
+```bash
+git pull origin main
+```
+
+### Verifica stato
+```bash
+git status
+git log --oneline
+```
 
 ## Commit Recenti
 
