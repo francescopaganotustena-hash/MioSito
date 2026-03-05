@@ -537,6 +537,14 @@ section h2 {
     transition: all 0.3s;
 }
 
+.skills li a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: inherit;
+    text-decoration: none;
+}
+
 .skills li i {
     font-size: 1.1rem;
     color: var(--text-dark);
