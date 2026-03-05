@@ -157,6 +157,8 @@ git log --oneline
 | 2026-03-05 | Arricchite pagine skill con contenuti dettagliati |
 | 2026-03-05 | Aggiunta skill Hardware & Virtualizzazione con architetture iperconvergenti |
 | 2026-03-05 | Aggiunto Proxmox alla pagina Hardware & Virtualizzazione |
+| 2026-03-05 | Aggiornato README.md con nuove skill e struttura |
+| 2026-03-05 | Aggiunto riferimento al team di specialisti nella sezione Chi sono |
 
 ## Note Future
 
