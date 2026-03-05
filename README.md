@@ -159,6 +159,7 @@ git log --oneline
 | 2026-03-05 | Aggiunto Proxmox alla pagina Hardware & Virtualizzazione |
 | 2026-03-05 | Aggiornato README.md con nuove skill e struttura |
 | 2026-03-05 | Aggiunto riferimento al team di specialisti nella sezione Chi sono |
+| 2026-03-05 | Creato template.txt per nuovi siti |
 
 ## Note Future
 
