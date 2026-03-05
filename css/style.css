@@ -810,3 +810,29 @@ section h2 {
         gap: 1rem;
     }
 }
+
+/* Skill Detail Pages */
+.skill-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.skill-detail h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--text-dark);
+}
+
+.skill-content {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.skill-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: var(--text-light);
+    font-size: 1.1rem;
+}
