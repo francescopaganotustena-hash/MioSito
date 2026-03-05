@@ -15,6 +15,17 @@ SitoWeb/
 ├── progetto-ecotracker.html      # Progetto 2: Monitoraggio Ambientale
 ├── progetto-virtuspace.html      # Progetto 3: Realtà Virtuale
 ├── progetto-codeforge.html       # Progetto 4: Sviluppo Software
+├── skill-javascript.html         # Skill: JavaScript/TypeScript
+├── skill-react.html              # Skill: React & Next.js
+├── skill-nodejs.html             # Skill: Node.js
+├── skill-python.html             # Skill: Python
+├── skill-ml.html                 # Skill: Machine Learning
+├── skill-webgl.html              # Skill: WebGL & Three.js
+├── skill-uiux.html               # Skill: UI/UX Design
+├── skill-cloud.html              # Skill: Cloud Architecture
+├── skill-devops.html             # Skill: DevOps
+├── skill-blockchain.html         # Skill: Blockchain
+├── skill-hyperconvergence.html   # Skill: Hardware & Virtualizzazione
 ├── css/
 │   ├── style.css                 # Stili tema scuro principale
 │   └── project.css               # Stili pagine progetto
@@ -140,6 +151,12 @@ git log --oneline
 | 2026-03-04 | Nuova foto profilo |
 | 2026-03-04 | Traduzione "About" → "Chi sono" |
 | 2026-03-04 | Integrazione Formspree per form contatti |
+| 2026-03-05 | Cambio nome da Sara a Nara |
+| 2026-03-05 | Unione paragrafi nella sezione Chi sono |
+| 2026-03-05 | Aggiunte 10 sottopagine skill navigabili |
+| 2026-03-05 | Arricchite pagine skill con contenuti dettagliati |
+| 2026-03-05 | Aggiunta skill Hardware & Virtualizzazione con architetture iperconvergenti |
+| 2026-03-05 | Aggiunto Proxmox alla pagina Hardware & Virtualizzazione |
 
 ## Note Future
 
