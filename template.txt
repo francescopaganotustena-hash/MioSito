@@ -1,0 +1,220 @@
+================================================================================
+TEMPLATE SITO WEB - Portfolio Professionale
+================================================================================
+
+COLORI (CSS Variables)
+----------------------
+:root {
+    --primary-dark: #001c20;        /* Sfondo principale scuro */
+    --bg-light: #e8f4f8;            /* Sfondo chiaro */
+    --bg-white: #1a3a47;            /* Sfondo secondario (card) */
+    --accent: #00d4ff;              /* Colore accent (cyan) */
+    --gray-medium: #5a7a8a;         /* Grigio medio */
+    --gray-light: #3d5a6a;          /* Grigio chiaro */
+    --text-dark: #e8f4f8;           /* Testo chiaro */
+    --text-light: #a8c4d4;          /* Testo grigio chiaro */
+    --accent-secondary: #a78bfa;    /* Colore secondario (viola) */
+    --max-width: 1280px;            /* Larghezza massima contenuto */
+}
+
+STRUTTURA HTML
+--------------
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titolo Pagina</title>
+    <meta name="description" content="Descrizione SEO">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="Nome Cognome">
+    <meta property="og:title" content="Titolo Open Graph">
+    <meta property="og:description" content="Descrizione Open Graph">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
+    
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Nome Logo</a>
+            <button class="hamburger" aria-label="Apri menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#about">Chi sono</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-elements">
+                <div class="hero-blob hero-blob-1"></div>
+                <div class="hero-blob hero-blob-2"></div>
+                <div class="hero-blob hero-blob-3"></div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-label">Sottotitolo/Tagline</p>
+                <h1>Ciao, sono <span class="highlight">Nome Cognome</span></h1>
+                <p class="subtitle">Descrizione principale</p>
+                <div class="cta-buttons">
+                    <a href="#progetti" class="btn">Pulsante 1</a>
+                    <a href="#contatti" class="btn btn-secondary">Pulsante 2</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progetti Section -->
+        <section id="progetti" class="projects">
+            <h2>Titolo Sezione</h2>
+            <div class="projects-grid">
+                <article class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="URL_IMMAGINE" alt="Titolo progetto" loading="lazy">
+                        <div class="project-overlay">
+                            <i class="fas fa-icona"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Categoria</span>
+                        <h3>Nome Progetto</h3>
+                        <p>Descrizione progetto...</p>
+                        <div class="project-tech">
+                            <span>Tecnologia 1</span>
+                            <span>Tecnologia 2</span>
+                            <span>Tecnologia 3</span>
+                        </div>
+                        <a href="pagina-progetto.html" class="project-link">Scopri di più →</a>
+                    </div>
+                </article>
+                <!-- Ripeti per altri progetti -->
+            </div>
+        </section>
+
+        <!-- Chi Sono Section -->
+        <section id="about" class="about">
+            <h2>Chi sono</h2>
+            <div class="about-content fade-in">
+                <div class="about-left">
+                    <div class="about-image">
+                        <img src="img/foto.jpg" alt="Nome Cognome" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-right">
+                    <p>Testo descrittivo...</p>
+                </div>
+                <ul class="skills">
+                    <li><a href="skill.html"><i class="fab fa-icona"></i> Skill 1</a></li>
+                    <li><a href="skill.html"><i class="fab fa-icona"></i> Skill 2</a></li>
+                    <!-- Altre skill -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contatti Section -->
+        <section id="contatti" class="contact">
+            <h2>Contatti</h2>
+            <p>Testo invito</p>
+            <div class="contact-buttons fade-in">
+                <a href="mailto:email@email.com" class="btn"><i class="fas fa-envelope"></i> Scrivimi</a>
+                <a href="#" class="btn btn-secondary"><i class="fas fa-download"></i> Scarica CV</a>
+            </div>
+            <div class="contact-form-container fade-in">
+                <form class="contact-form" action="https://formspree.io/f/ID_FORM" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Invia</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Nome Cognome. Tutti i diritti riservati.</p>
+        <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+STRUTTURA CARTELLE
+------------------
+SitoWeb/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── img/
+    ├── foto.jpg
+    └── favicon.svg
+
+ICONE FONT AWESOME UTILIZZATE
+-----------------------------
+- fa-js          → JavaScript
+- fa-react       → React
+- fa-node        → Node.js
+- fa-python      → Python
+- fa-brain       → Machine Learning
+- fa-cube        → WebGL/Three.js
+- fa-paint-brush → UI/UX Design
+- fa-cloud       → Cloud
+- fa-cogs        → DevOps
+- fa-link        → Blockchain
+- fa-server      → Hardware
+- fa-envelope    → Email
+- fa-download    → Download
+- fa-paper-plane → Invia
+- fa-github      → GitHub
+- fa-linkedin    → LinkedIn
+- fa-twitter     → Twitter
+
+ANIMAZIONI CSS
+--------------
+- fade-in: Opacità 0→1 con transition
+- hover transform: translateY(-8px) sulle card
+- hero-blob: Animazioni float e pulse con blur
+- highlight::after: Sottolineatura skew con colore secondario
+
+RESPONSIVE
+----------
+- Grid auto-fit con minmax(380px, 1fr)
+- Hamburger menu per mobile
+- Media query per tablet e mobile
+
+ACCESSIBILITÀ
+-------------
+- Skip link per navigazione
+- aria-label su bottoni e link
+- focus-visible styles
+- Lazy loading immagini
+- Contrast ratio appropriato
+
+================================================================================
