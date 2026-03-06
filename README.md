@@ -1,4 +1,4 @@
-# Portfolio Nara Stabucchi
+# Portfolio Vincenza Pagano
 
 Sito web personale professionale realizzato per presentare progetti, competenze e servizi di sviluppo web.
 
